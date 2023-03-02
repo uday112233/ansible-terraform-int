@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "s3bucketashokit"{
 bucket = "s3bucketashokit"
 acl="private"
 
-versionining{
+versioning{
 	enabled = true
 }
 
