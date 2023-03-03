@@ -1,6 +1,6 @@
-resource "aws_s3_bucket" "s3bucketashokit"{
+resource "aws_s3_bucket" "s3bucketashok-1"{
 
-bucket = "s3bucketashokit"
+bucket = "s3bucketashok-1"
 acl="private"
 
 versioning{
